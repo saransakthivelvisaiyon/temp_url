@@ -11,6 +11,5 @@ sleep 5
 # Step 3: Git push the updated URL
 git add cloudflared_url.txt
 git commit -m "Updated Cloudflared URL $(date)"
-git push origin main
-
+git push origin master
 
