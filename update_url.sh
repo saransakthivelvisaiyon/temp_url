@@ -3,7 +3,7 @@
 touch cloudflared_url.txt
 
 # Step 1: Run Cloudflared & capture URL
-( cloudflared tunnel --url http://localhost:8000 2>&1 | tee cloudflared.log | grep -o -m 1 "https://[^\ ]*" > cloudflared_url.txt ) &
+( cloudflared tunnel --url http://localhost:8000 2>&1 | grep -o -m 1 "https://.*trycloudflare.com" > cloudflared_url.txt ) &
 
 # Step 2: Wait for URL capture
 sleep 5
