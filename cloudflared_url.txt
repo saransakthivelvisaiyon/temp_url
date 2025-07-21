@@ -1,1 +1,2 @@
-trycloudflare.com...
+https://www.cloudflare.com/website-terms/),
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
