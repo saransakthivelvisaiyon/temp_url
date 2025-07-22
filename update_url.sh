@@ -22,4 +22,4 @@ git commit -m "Updated Cloudflared URL $(date)"
 git push origin master
 
 # Leave Cloudflared running or stop it
-# kill $CLOUDFLARED_PID
+kill $CLOUDFLARED_PID
